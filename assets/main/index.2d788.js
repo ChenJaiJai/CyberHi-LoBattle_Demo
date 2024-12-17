@@ -1079,7 +1079,7 @@ System.register("chunks:///_virtual/sha224.js", ['./_rollupPluginModLoBabelHelpe
 System.register("chunks:///_virtual/AutoView.ts", ['./_rollupPluginModLoBabelHelpers.js', 'cc'], function (exports) {
   'use strict';
 
-  var _applyDecoratedDescriptor, _inheritsLoose, _initializerDefineProperty, _assertThisInitialized, _defineProperty, _asyncToGenerator, cclegacy, _decorator, find, view, ResolutionPolicy, UITransform, Component;
+  var _applyDecoratedDescriptor, _inheritsLoose, _initializerDefineProperty, _assertThisInitialized, _defineProperty, cclegacy, _decorator, sys, view, ResolutionPolicy, find, UITransform, Component;
 
   return {
     setters: [function (module) {
@@ -1088,13 +1088,13 @@ System.register("chunks:///_virtual/AutoView.ts", ['./_rollupPluginModLoBabelHel
       _initializerDefineProperty = module.initializerDefineProperty;
       _assertThisInitialized = module.assertThisInitialized;
       _defineProperty = module.defineProperty;
-      _asyncToGenerator = module.asyncToGenerator;
     }, function (module) {
       cclegacy = module.cclegacy;
       _decorator = module._decorator;
-      find = module.find;
+      sys = module.sys;
       view = module.view;
       ResolutionPolicy = module.ResolutionPolicy;
+      find = module.find;
       UITransform = module.UITransform;
       Component = module.Component;
     }],
@@ -1139,43 +1139,8 @@ System.register("chunks:///_virtual/AutoView.ts", ['./_rollupPluginModLoBabelHel
         };
 
         _proto.start = function start() {
-          var _this2 = this;
-
-          console.log(find("AutoView")); // if (sys.os == sys.OS.ANDROID) return
-
-          this.AdjustView();
-          window.addEventListener("resize", /*#__PURE__*/_asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee() {
-            return regeneratorRuntime.wrap(function _callee$(_context) {
-              while (1) {
-                switch (_context.prev = _context.next) {
-                  case 0:
-                    if (_this2.isAutoView) {
-                      _context.next = 2;
-                      break;
-                    }
-
-                    return _context.abrupt("return");
-
-                  case 2:
-                    if (_this2.isCanUpdata) {
-                      _this2.isCanUpdata = false;
-                      setTimeout(function () {
-                        _this2.AdjustView();
-
-                        _this2.isCanUpdata = true;
-                      }, 500);
-                    } else {
-                      console.error("等待刷新......");
-                    }
-
-                  case 3:
-                  case "end":
-                    return _context.stop();
-                }
-              }
-            }, _callee);
-          }))); // view.on('canvas-resize', this.resize, this);
-          // director.on(Director.EVENT_AFTER_SCENE_LAUNCH, this.AdjustView, this);
+          if (sys.isMobile) view.setResolutionPolicy(ResolutionPolicy.FIXED_WIDTH);else view.setResolutionPolicy(ResolutionPolicy.FIXED_HEIGHT);
+          return; // director.on(Director.EVENT_AFTER_SCENE_LAUNCH, this.AdjustView, this);
         };
 
         _proto.AdjustView = function AdjustView() {

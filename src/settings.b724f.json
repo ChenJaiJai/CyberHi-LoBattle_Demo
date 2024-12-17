@@ -9,7 +9,7 @@
     "platform": "web-mobile",
     "exactFitScreen": true,
     "bundleVers": {
-        "main": "60ea1",
+        "main": "2d788",
         "resources": "0bc02"
     },
     "subpackages": [],
