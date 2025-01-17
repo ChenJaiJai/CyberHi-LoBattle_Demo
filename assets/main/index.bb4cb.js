@@ -8528,7 +8528,7 @@ System.register("chunks:///_virtual/get_sign_verify_key.ts", ['cc', './crypto_ke
   };
 });
 
-System.register("chunks:///_virtual/GoogleSheet.ts", ['./rollupPluginModLoBabelHelpers.js', 'cc', './index.ts', './SheetData.ts', './sign.ts', './import.ts'], function (exports) {
+System.register("chunks:///_virtual/GoogleSheet.ts", ['./rollupPluginModLoBabelHelpers.js', 'cc', './index.ts', './SheetData.ts', './sign2.ts', './import.ts'], function (exports) {
   var _asyncToGenerator, _regeneratorRuntime, cclegacy, warn, SheetData, SignJWT, importPKCS8;
   return {
     setters: [function (module) {
@@ -9187,7 +9187,7 @@ System.register("chunks:///_virtual/index.js", ['cc', './core.js', './x64-core.j
   };
 });
 
-System.register("chunks:///_virtual/index.ts", ['cc', './sign.ts', './import.ts'], function (exports) {
+System.register("chunks:///_virtual/index.ts", ['cc', './sign2.ts', './import.ts'], function (exports) {
   var cclegacy;
   return {
     setters: [function (module) {
@@ -11134,7 +11134,7 @@ System.register("chunks:///_virtual/M4SFSelect.ts", ['./rollupPluginModLoBabelHe
   };
 });
 
-System.register("chunks:///_virtual/main", ['./AutoFollow.ts', './BaseComponent.ts', './DelayTime.ts', './EasyCode.ts', './EditSpine.mjs_cjs=&original=.js', './GoogleSheet.ts', './SheetData.ts', './CocosImage.ts', './CreateFileSprite.ts', './index.ts', './sign2.ts', './sign3.ts', './produce.ts', './sign.ts', './import.ts', './buffer_utils.ts', './check_key_type.ts', './crypto_key.ts', './epoch.ts', './invalid_key_input.ts', './is_disjoint.ts', './is_object.ts', './secs.ts', './validate_crit.ts', './asn1.ts', './base64url.ts', './check_key_length.ts', './get_sign_verify_key.ts', './is_key_like.ts', './sign4.ts', './subtle_dsa.ts', './webcrypto.ts', './errors.ts', './browser_client.ts', './base_client.ts', './index2.ts', './mod.ts', './connack.ts', './connect.ts', './disconnect.ts', './length.ts', './mod2.ts', './pingreq.ts', './pingres.ts', './puback.ts', './pubcomp.ts', './publish.ts', './pubrec.ts', './pubrel.ts', './suback.ts', './subscribe.ts', './unsuback.ts', './unsubscribe.ts', './utf8.ts', './EventMng.ts', './LanguageManager.ts', './MyEditBox.ts', './MyMath.ts', './BaseSingleton.ts', './BaseSingletonComponent.ts', './IBaseSingleton.ts', './SingletonManger.ts', './StatePatten.ts', './Public.ts', './Request.ts', './RequestData.ts', './ResponseData.ts', './SetBtnEventForKeepTouching.ts', './LookTex.ts', './aes.js', './blowfish.js', './cipher-core.js', './core.js', './enc-base64.js', './enc-base64url.js', './enc-utf16.js', './evpkdf.js', './format-hex.js', './hmac.js', './index.js', './md5.js', './mode-cfb.js', './mode-ctr-gladman.js', './mode-ctr.js', './mode-ecb.js', './mode-ofb.js', './pad-ansix923.js', './pad-iso10126.js', './pad-iso97971.js', './pad-nopadding.js', './pad-zeropadding.js', './pbkdf2.js', './rabbit-legacy.js', './rabbit.js', './rc4.js', './ripemd160.js', './sha1.js', './sha224.js', './sha256.js', './sha3.js', './sha384.js', './sha512.js', './tripledes.js', './x64-core.js', './PageViewOnlyShowItemsInMaskRange.ts', './ScrollViewEvent.ts', './ScrollViewOnlyShowItemsInMaskRange.ts', './M4Enum.ts', './M4SFBG.ts', './M4SFBonus.ts', './M4SFGamer.ts', './M4SFSelect.ts', './RequestContorl.ts', './RequestData2.ts', './AutoView.ts', './BasicEnum.ts', './CommonValue.ts', './CustomEvent.ts', './LabelButton.ts', './BasicSFBetInfo.ts', './BasicSFRandomSelect.ts', './BasicSPButton.ts', './BasicAutoPlay.ts', './BasicRandomAutoPlay.ts', './BasicBetInfo.ts', './BasicChip.ts', './BasicGameShow.ts', './BasicVersion.ts', './BasicPlaySelect.ts', './BasicRandomSelect.ts', './BasicSelect.ts', './ScreenAdapter%20.ts', './SpriteButton.ts', './M4PanelAutoPlay.ts', './M4PanelBG.ts', './M4PanelBetInfo.ts', './M4PanelBetSelect.ts', './M4Bonus.ts', './M4PanelBonus.ts', './M4PanelChip.ts', './M4Gamer.ts', './M4PanelGameShow.ts'], function () {
+System.register("chunks:///_virtual/main", ['./AutoFollow.ts', './BaseComponent.ts', './DelayTime.ts', './EasyCode.ts', './EditSpine.mjs_cjs=&original=.js', './GoogleSheet.ts', './SheetData.ts', './CocosImage.ts', './CreateFileSprite.ts', './index.ts', './sign3.ts', './sign4.ts', './produce.ts', './sign2.ts', './import.ts', './buffer_utils.ts', './check_key_type.ts', './crypto_key.ts', './epoch.ts', './invalid_key_input.ts', './is_disjoint.ts', './is_object.ts', './secs.ts', './validate_crit.ts', './asn1.ts', './base64url.ts', './check_key_length.ts', './get_sign_verify_key.ts', './is_key_like.ts', './sign.ts', './subtle_dsa.ts', './webcrypto.ts', './errors.ts', './browser_client.ts', './base_client.ts', './index2.ts', './mod.ts', './connack.ts', './connect.ts', './disconnect.ts', './length.ts', './mod2.ts', './pingreq.ts', './pingres.ts', './puback.ts', './pubcomp.ts', './publish.ts', './pubrec.ts', './pubrel.ts', './suback.ts', './subscribe.ts', './unsuback.ts', './unsubscribe.ts', './utf8.ts', './EventMng.ts', './LanguageManager.ts', './MyEditBox.ts', './MyMath.ts', './BaseSingleton.ts', './BaseSingletonComponent.ts', './IBaseSingleton.ts', './SingletonManger.ts', './StatePatten.ts', './Public.ts', './Request.ts', './RequestData.ts', './ResponseData.ts', './SetBtnEventForKeepTouching.ts', './LookTex.ts', './aes.js', './blowfish.js', './cipher-core.js', './core.js', './enc-base64.js', './enc-base64url.js', './enc-utf16.js', './evpkdf.js', './format-hex.js', './hmac.js', './index.js', './md5.js', './mode-cfb.js', './mode-ctr-gladman.js', './mode-ctr.js', './mode-ecb.js', './mode-ofb.js', './pad-ansix923.js', './pad-iso10126.js', './pad-iso97971.js', './pad-nopadding.js', './pad-zeropadding.js', './pbkdf2.js', './rabbit-legacy.js', './rabbit.js', './rc4.js', './ripemd160.js', './sha1.js', './sha224.js', './sha256.js', './sha3.js', './sha384.js', './sha512.js', './tripledes.js', './x64-core.js', './PageViewOnlyShowItemsInMaskRange.ts', './ScrollViewEvent.ts', './ScrollViewOnlyShowItemsInMaskRange.ts', './M4Enum.ts', './M4SFBG.ts', './M4SFBonus.ts', './M4SFGamer.ts', './M4SFSelect.ts', './RequestContorl.ts', './RequestData2.ts', './AutoView.ts', './BasicEnum.ts', './CommonValue.ts', './CustomEvent.ts', './LabelButton.ts', './BasicSFBetInfo.ts', './BasicSFRandomSelect.ts', './BasicSPButton.ts', './BasicAutoPlay.ts', './BasicRandomAutoPlay.ts', './BasicBetInfo.ts', './BasicChip.ts', './BasicGameShow.ts', './BasicVersion.ts', './BasicPlaySelect.ts', './BasicRandomSelect.ts', './BasicSelect.ts', './ScreenAdapter%20.ts', './SpriteButton.ts', './M4PanelAutoPlay.ts', './M4PanelBG.ts', './M4PanelBetInfo.ts', './M4PanelBetSelect.ts', './M4Bonus.ts', './M4PanelBonus.ts', './M4PanelChip.ts', './M4Gamer.ts', './M4PanelGameShow.ts'], function () {
   return {
     setters: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     execute: function () {}
@@ -16307,7 +16307,57 @@ System.register("chunks:///_virtual/SheetData.ts", ['cc'], function (exports) {
   };
 });
 
-System.register("chunks:///_virtual/sign.ts", ['./rollupPluginModLoBabelHelpers.js', 'cc', './sign2.ts', './errors.ts', './buffer_utils.ts', './produce.ts'], function (exports) {
+System.register("chunks:///_virtual/sign.ts", ['./rollupPluginModLoBabelHelpers.js', 'cc', './check_key_length.ts', './get_sign_verify_key.ts', './subtle_dsa.ts'], function (exports) {
+  var _asyncToGenerator, _regeneratorRuntime, cclegacy, checkKeyLength, getCryptoKey, subtleDsa;
+  return {
+    setters: [function (module) {
+      _asyncToGenerator = module.asyncToGenerator;
+      _regeneratorRuntime = module.regeneratorRuntime;
+    }, function (module) {
+      cclegacy = module.cclegacy;
+    }, function (module) {
+      checkKeyLength = module.default;
+    }, function (module) {
+      getCryptoKey = module.default;
+    }, function (module) {
+      subtleDsa = module.default;
+    }],
+    execute: function () {
+      cclegacy._RF.push({}, "0334fqTKphDhZhjyBEjc2LG", "sign", undefined);
+      // import crypto from './webcrypto'
+
+      var sign = exports('default', /*#__PURE__*/function () {
+        var _ref = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee(alg, key, data) {
+          var cryptoKey, signature;
+          return _regeneratorRuntime().wrap(function _callee$(_context) {
+            while (1) switch (_context.prev = _context.next) {
+              case 0:
+                _context.next = 2;
+                return getCryptoKey(alg, key, 'sign');
+              case 2:
+                cryptoKey = _context.sent;
+                checkKeyLength(alg, cryptoKey);
+                _context.next = 6;
+                return crypto.subtle.sign(subtleDsa(alg, cryptoKey.algorithm), cryptoKey, data);
+              case 6:
+                signature = _context.sent;
+                return _context.abrupt("return", new Uint8Array(signature));
+              case 8:
+              case "end":
+                return _context.stop();
+            }
+          }, _callee);
+        }));
+        return function sign(_x, _x2, _x3) {
+          return _ref.apply(this, arguments);
+        };
+      }());
+      cclegacy._RF.pop();
+    }
+  };
+});
+
+System.register("chunks:///_virtual/sign2.ts", ['./rollupPluginModLoBabelHelpers.js', 'cc', './sign3.ts', './errors.ts', './buffer_utils.ts', './produce.ts'], function (exports) {
   var _inheritsLoose, _asyncToGenerator, _regeneratorRuntime, cclegacy, CompactSign, JWTInvalid, encoder, ProduceJWT;
   return {
     setters: [function (module) {
@@ -16495,7 +16545,7 @@ System.register("chunks:///_virtual/sign.ts", ['./rollupPluginModLoBabelHelpers.
   };
 });
 
-System.register("chunks:///_virtual/sign2.ts", ['./rollupPluginModLoBabelHelpers.js', 'cc', './sign3.ts'], function (exports) {
+System.register("chunks:///_virtual/sign3.ts", ['./rollupPluginModLoBabelHelpers.js', 'cc', './sign4.ts'], function (exports) {
   var _asyncToGenerator, _regeneratorRuntime, cclegacy, FlattenedSign;
   return {
     setters: [function (module) {
@@ -16584,7 +16634,7 @@ System.register("chunks:///_virtual/sign2.ts", ['./rollupPluginModLoBabelHelpers
   };
 });
 
-System.register("chunks:///_virtual/sign3.ts", ['./rollupPluginModLoBabelHelpers.js', 'cc', './base64url.ts', './sign4.ts', './buffer_utils.ts', './check_key_type.ts', './is_disjoint.ts', './validate_crit.ts', './errors.ts'], function (exports) {
+System.register("chunks:///_virtual/sign4.ts", ['./rollupPluginModLoBabelHelpers.js', 'cc', './base64url.ts', './sign.ts', './buffer_utils.ts', './check_key_type.ts', './is_disjoint.ts', './validate_crit.ts', './errors.ts'], function (exports) {
   var _asyncToGenerator, _regeneratorRuntime, _extends, cclegacy, encode, sign, decoder, encoder, concat, checkKeyType, isDisjoint, validateCrit, JWSInvalid;
   return {
     setters: [function (module) {
@@ -16755,56 +16805,6 @@ System.register("chunks:///_virtual/sign3.ts", ['./rollupPluginModLoBabelHelpers
           return sign$1;
         }();
         return FlattenedSign;
-      }());
-      cclegacy._RF.pop();
-    }
-  };
-});
-
-System.register("chunks:///_virtual/sign4.ts", ['./rollupPluginModLoBabelHelpers.js', 'cc', './check_key_length.ts', './get_sign_verify_key.ts', './subtle_dsa.ts'], function (exports) {
-  var _asyncToGenerator, _regeneratorRuntime, cclegacy, checkKeyLength, getCryptoKey, subtleDsa;
-  return {
-    setters: [function (module) {
-      _asyncToGenerator = module.asyncToGenerator;
-      _regeneratorRuntime = module.regeneratorRuntime;
-    }, function (module) {
-      cclegacy = module.cclegacy;
-    }, function (module) {
-      checkKeyLength = module.default;
-    }, function (module) {
-      getCryptoKey = module.default;
-    }, function (module) {
-      subtleDsa = module.default;
-    }],
-    execute: function () {
-      cclegacy._RF.push({}, "0334fqTKphDhZhjyBEjc2LG", "sign", undefined);
-      // import crypto from './webcrypto'
-
-      var sign = exports('default', /*#__PURE__*/function () {
-        var _ref = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee(alg, key, data) {
-          var cryptoKey, signature;
-          return _regeneratorRuntime().wrap(function _callee$(_context) {
-            while (1) switch (_context.prev = _context.next) {
-              case 0:
-                _context.next = 2;
-                return getCryptoKey(alg, key, 'sign');
-              case 2:
-                cryptoKey = _context.sent;
-                checkKeyLength(alg, cryptoKey);
-                _context.next = 6;
-                return crypto.subtle.sign(subtleDsa(alg, cryptoKey.algorithm), cryptoKey, data);
-              case 6:
-                signature = _context.sent;
-                return _context.abrupt("return", new Uint8Array(signature));
-              case 8:
-              case "end":
-                return _context.stop();
-            }
-          }, _callee);
-        }));
-        return function sign(_x, _x2, _x3) {
-          return _ref.apply(this, arguments);
-        };
       }());
       cclegacy._RF.pop();
     }
