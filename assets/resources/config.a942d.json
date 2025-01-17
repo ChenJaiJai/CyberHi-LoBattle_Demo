@@ -1,0 +1,175 @@
+{
+    "importBase": "import",
+    "nativeBase": "native",
+    "name": "resources",
+    "deps": [],
+    "uuids": [
+        "0fa431a89",
+        "11b95f53-000a-437f-91da-4869c5f98bcb@f9941",
+        "19e2e9085",
+        "19e2e9085@6c48a",
+        "3b2b54e9-e598-4c98-8743-234a31a4582d@f9941",
+        "3f233ff9-cb0d-49cc-8322-55d2bbd2ced5@f9941",
+        "482cf444-57aa-4c0c-b77b-838bdef3bab5@f9941",
+        "5b1a996e-e73c-4225-80e4-c3b630625c2b@f9941",
+        "5cd075dc-4bce-4a01-9bed-ed034647a043@f9941",
+        "79e3c806-980a-43c1-90f9-bda39243095b@f9941",
+        "85f0db52-eb77-4e27-8c81-8ce32648bb85@f9941",
+        "8d6ae0f3-5db4-4596-b502-e5f2f3071032@f9941",
+        "9b8c6435-24b4-4773-9431-d000f926d40e@f9941",
+        "9bb6aef6-dc09-4dbe-89bc-f57c5a41d162@f9941",
+        "9c0ab46a-3d7e-442d-bf02-a8ac7205f69f@f9941",
+        "9f78f21e-6bed-40c1-8b40-b1f94410122f@f9941",
+        "a0613391-00dd-486b-a819-d409c6ce1eca@f9941",
+        "a9790942-b019-4d10-a824-aa8d49ac7c4c@f9941",
+        "b1914668-ed85-4264-aaf6-601da741e350@f9941",
+        "ba5496a3-2089-42a9-8039-e0dcee207a60@f9941",
+        "c30b4aa4-f53d-41bc-aa6a-57e3ac7ed645@f9941",
+        "d5eb367c-346a-4717-a39e-2d7051563f4c@f9941",
+        "f6643aab-40bb-41bf-b6fa-1cd85a387bbe@f9941"
+    ],
+    "paths": {
+        "ba5496a3-2089-42a9-8039-e0dcee207a60@f9941": [
+            "Common/Sprite/Chip/ChipPress_0/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "f6643aab-40bb-41bf-b6fa-1cd85a387bbe@f9941": [
+            "Common/Sprite/Chip/ChipPress_1/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "9bb6aef6-dc09-4dbe-89bc-f57c5a41d162@f9941": [
+            "Common/Sprite/Chip/ChipPress_2/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "3b2b54e9-e598-4c98-8743-234a31a4582d@f9941": [
+            "Common/Sprite/Chip/ChipPress_3/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "a0613391-00dd-486b-a819-d409c6ce1eca@f9941": [
+            "Common/Sprite/Chip/ChipPress_4/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "79e3c806-980a-43c1-90f9-bda39243095b@f9941": [
+            "Common/Sprite/Chip/ChipPress_5/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "3f233ff9-cb0d-49cc-8322-55d2bbd2ced5@f9941": [
+            "Common/Sprite/Chip/ChipPress_6/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "8d6ae0f3-5db4-4596-b502-e5f2f3071032@f9941": [
+            "Common/Sprite/Chip/ChipPress_7/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "c30b4aa4-f53d-41bc-aa6a-57e3ac7ed645@f9941": [
+            "Common/Sprite/Chip/ChipPress_8/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "d5eb367c-346a-4717-a39e-2d7051563f4c@f9941": [
+            "Common/Sprite/Chip/ChipPress_9/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "b1914668-ed85-4264-aaf6-601da741e350@f9941": [
+            "Common/Sprite/Chip/Chip_0/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "482cf444-57aa-4c0c-b77b-838bdef3bab5@f9941": [
+            "Common/Sprite/Chip/Chip_1/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "85f0db52-eb77-4e27-8c81-8ce32648bb85@f9941": [
+            "Common/Sprite/Chip/Chip_2/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "9f78f21e-6bed-40c1-8b40-b1f94410122f@f9941": [
+            "Common/Sprite/Chip/Chip_3/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "9b8c6435-24b4-4773-9431-d000f926d40e@f9941": [
+            "Common/Sprite/Chip/Chip_4/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "5cd075dc-4bce-4a01-9bed-ed034647a043@f9941": [
+            "Common/Sprite/Chip/Chip_5/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "9c0ab46a-3d7e-442d-bf02-a8ac7205f69f@f9941": [
+            "Common/Sprite/Chip/Chip_6/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "a9790942-b019-4d10-a824-aa8d49ac7c4c@f9941": [
+            "Common/Sprite/Chip/Chip_7/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "11b95f53-000a-437f-91da-4869c5f98bcb@f9941": [
+            "Common/Sprite/Chip/Chip_8/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "5b1a996e-e73c-4225-80e4-c3b630625c2b@f9941": [
+            "Common/Sprite/Chip/Chip_9/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ]
+    },
+    "scenes": {},
+    "packs": {
+        "0fa431a89": [
+            "11b95f53-000a-437f-91da-4869c5f98bcb@f9941",
+            "19e2e9085",
+            "19e2e9085@6c48a",
+            "3b2b54e9-e598-4c98-8743-234a31a4582d@f9941",
+            "3f233ff9-cb0d-49cc-8322-55d2bbd2ced5@f9941",
+            "482cf444-57aa-4c0c-b77b-838bdef3bab5@f9941",
+            "5b1a996e-e73c-4225-80e4-c3b630625c2b@f9941",
+            "5cd075dc-4bce-4a01-9bed-ed034647a043@f9941",
+            "79e3c806-980a-43c1-90f9-bda39243095b@f9941",
+            "85f0db52-eb77-4e27-8c81-8ce32648bb85@f9941",
+            "8d6ae0f3-5db4-4596-b502-e5f2f3071032@f9941",
+            "9b8c6435-24b4-4773-9431-d000f926d40e@f9941",
+            "9bb6aef6-dc09-4dbe-89bc-f57c5a41d162@f9941",
+            "9c0ab46a-3d7e-442d-bf02-a8ac7205f69f@f9941",
+            "9f78f21e-6bed-40c1-8b40-b1f94410122f@f9941",
+            "a0613391-00dd-486b-a819-d409c6ce1eca@f9941",
+            "a9790942-b019-4d10-a824-aa8d49ac7c4c@f9941",
+            "b1914668-ed85-4264-aaf6-601da741e350@f9941",
+            "ba5496a3-2089-42a9-8039-e0dcee207a60@f9941",
+            "c30b4aa4-f53d-41bc-aa6a-57e3ac7ed645@f9941",
+            "d5eb367c-346a-4717-a39e-2d7051563f4c@f9941",
+            "f6643aab-40bb-41bf-b6fa-1cd85a387bbe@f9941"
+        ]
+    },
+    "versions": {
+        "import": [
+            "0fa431a89",
+            "b8bab"
+        ],
+        "native": [
+            "19e2e9085",
+            "a214b"
+        ]
+    },
+    "redirect": [],
+    "debug": true,
+    "extensionMap": {},
+    "hasPreloadScript": true,
+    "dependencyRelationships": {}
+}
